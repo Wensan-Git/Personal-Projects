@@ -1,27 +1,5 @@
 #lang dssl2
 
-let eight_principles = ["Know your rights.", "Acknowledge your sources.",
-"Protect your work.",
-"Avoid suspicion.",
-"Do your own work.",
-"Never falsify a record or permit another person to do so.",
-"Never fabricate data, citations, or experimental results.",
-"Always tell the truth when discussing your work with your instructor."]
-
-# Final project: Trip Planner
-#
-# ** You must work on your own for this assignment. **
-
-# Your program will most likely need a number of data structures, many of
-# which you've implemented in previous homeworks.
-# We have provided you with compiled versions of homework 3, 4, and 5 solutions.
-# You can import them as described in the handout.
-# Be sure to extract `project-lib.zip` is the same directory as this file.
-# You may also import libraries from the DSSL2 standard library (e.g., cons,
-# array, etc.).
-# Any other code (e.g., from lectures) you wish to use must be copied to this
-# file.
-
 import cons
 import sbox_hash
 import 'project-lib/dictionaries.rkt'
