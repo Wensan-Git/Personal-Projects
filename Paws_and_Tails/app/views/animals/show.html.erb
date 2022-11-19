@@ -1,0 +1,99 @@
+<div class="columns">
+  <div class="column">
+    <h3 class="title">Animal: <%= @animal.name %></h3>
+  </div>
+</div>
+
+<div class="columns is-mobile is-centered">
+  <div class="column is-6 has-text-centered">
+    <figure class="image is-4by3">
+      <% if @animal.image_link.nil? %>
+        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="placeholder">
+      <% else %>
+        <img src="<%= @animal.image_link %>" alt="animal picture">
+      <% end %>
+    </figure>
+  </div>
+</div>
+
+<div class="columns is-mobile is-centered">
+  <div class="column is-10">
+    <div class="box">
+      <div class="columns">
+        <div class="column is-4">
+          Animal Type:
+        </div>
+        <div class="column is-8">
+          <%= @animal.animal_type %>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4">
+          Breed:
+        </div>
+        <div class="column is-8">
+          <%= @animal.breed %>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4">
+          Price:
+        </div>
+        <div class="column is-8">
+          <%= @animal.price %>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4">
+          Anticipated Birthday:
+        </div>
+        <div class="column is-8">
+          <%= @animal.anticipated_birthday %>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column is-4">
+          Breeder:
+        </div>
+        <div class="column is-8">
+          <%= link_to @breeder.name, breeder_path(@breeder) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="columns">
+  <div class="column has-text-right">
+    <%= link_to "Back", animals_path, class: 'button is-info' %>
+    <%= link_to "Delete", animal_path(@animal), 'data-method': 'delete', 'data-confirm': 'Are you sure?', class: 'button is-danger'%>
+    <%= link_to "Edit", edit_animal_path(@animal), class: 'button is-warning' %>
+  </div>
+</div>
+
+
+<!--<p id="notice"><%#= notice %></p>-->
+
+<!--<p>-->
+<!--  <strong>Name:</strong>-->
+<%#= @animal.name %>
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Type:</strong>-->
+<%#= @animal.animal_type %>
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Personality:</strong>-->
+<%#= @animal.personality %>
+<!--</p>-->
+
+<!--<p>-->
+<!--  <strong>Price:</strong>-->
+<%#= @animal.price %>
+<!--</p>-->
+
+<!--<%#= link_to 'Edit', edit_animal_path(@animal) %> |-->
+<%#= link_to 'Back', animals_path %>
