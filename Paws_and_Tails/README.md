@@ -14,7 +14,6 @@ We are building a SAAS app that aims to connect pet finders and breeders togethe
 <!-- code_chunk_output -->
 
 - [Paws & Tails](#paws-tails)
-  - [Team Members](#team-members)
   - [For the Developers](#for-the-developers)
     - [Run the Project Locally in Docker (Recommended)](#run-the-project-locally-in-docker-recommended)
     - [Troubleshoot](#troubleshoot)
