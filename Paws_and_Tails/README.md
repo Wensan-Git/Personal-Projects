@@ -21,7 +21,6 @@ The goal of this project is to build a SAAS app that aims to connect pet finders
 
 <!-- /code_chunk_output -->
 
-
 ## Developer
 Jiacheng Yin -- Columbia University, Class of 2024
 
