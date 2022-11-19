@@ -2,7 +2,7 @@
 
 *Bring Your New Best Friend Home.*
 
-We are building a SAAS app that aims to connect pet finders and breeders together and improve the whole pet-finding business.
+The goal of this project is to build a SAAS app that aims to connect pet finders and breeders together and improve the whole pet-finding business.
 
 ![](https://img.shields.io/badge/ruby-3.1.2-informational) ![](https://img.shields.io/badge/rails-7.0.4-informational)
 
