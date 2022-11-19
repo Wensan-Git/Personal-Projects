@@ -15,7 +15,7 @@ We are building a SAAS app that aims to connect pet finders and breeders togethe
 
 - [Paws & Tails](#paws-tails)
   - [Team Members](#team-members)
-  - [For the TA Team](#for-the-ta-team)
+  - [For the Developers](#for-the-developers)
     - [Run the Project Locally in Docker (Recommended)](#run-the-project-locally-in-docker-recommended)
     - [Troubleshoot](#troubleshoot)
   - [Deployment](#deployment)
@@ -23,13 +23,10 @@ We are building a SAAS app that aims to connect pet finders and breeders togethe
 <!-- /code_chunk_output -->
 
 
-## Team Members
+## Developer
+Jiacheng Yin -- Columbia University, Class of 2024
 
-    Tianqi Zhao (tz2529)
-	Jiacheng Yin (jy3280)
-	Dmitrii Zakharov (dz2428)
-
-## For the TA Team
+## For the Developers
 
 ### Run the Project Locally in Docker (Recommended)
 
