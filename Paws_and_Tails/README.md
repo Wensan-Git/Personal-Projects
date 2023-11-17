@@ -26,7 +26,7 @@ Jiacheng Yin -- Columbia University, Class of 2024
 
 ## For the Developers
 
-## Note, at things stand right now, the code is non-compilable -- it is a 70% done first iteration demo that I release as a preview. I will publicize the full code base only I finish developing all the code for it!
+## Note, as things stand right now, the code is non-compilable -- it is a 70% done first iteration demo that I release as a preview. I will publicize the full code base only I finish developing all the code for it!
 
 ### Run the Project Locally in Docker (Recommended)
 
