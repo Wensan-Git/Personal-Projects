@@ -4,6 +4,8 @@
 
 The goal of this project is to build a SAAS app that aims to connect pet finders and breeders together and improve the whole pet-finding business.
 
+For your convenience of reading: most of the Model, View, and Controller codes arein the Paws_and_Tails/app folder
+
 ![](https://img.shields.io/badge/ruby-3.1.2-informational) ![](https://img.shields.io/badge/rails-7.0.4-informational)
 
 ![](https://img.shields.io/badge/coverage-98%25-brightgreen) ![](https://img.shields.io/badge/build-passing-green) ![](https://img.shields.io/badge/tests-288%20passed-red)
@@ -131,4 +133,4 @@ sudo docker system prune
 
 The app is deployed at: [https://paws-and-tails.herokuapp.com/](https://paws-and-tails.herokuapp.com/)
 
-Unfortunately, the inner shift in Heroku made the deployment unseenable. I will update this once I finish the entire launching!
+Unfortunately, the inner shift in Heroku made the deployment unseenable. I will update this once I finish the entire launching! I will also attach a demo video once the launching is successful.
