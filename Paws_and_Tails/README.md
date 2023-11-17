@@ -22,7 +22,7 @@ The goal of this project is to build a SAAS app that aims to connect pet finders
 <!-- /code_chunk_output -->
 
 ## Developer
-Jiacheng Yin -- Columbia University, Class of 2024
+Wensan Yin -- Columbia University, Class of 2024
 
 ## For the Developers
 
@@ -32,7 +32,7 @@ Jiacheng Yin -- Columbia University, Class of 2024
 
 Our team dockerized the rails application so that there won't be any dependency, environment, or weird issues when the project is running on any machine.
 
-We use ruby version `3.1.2` and rails version `7.0.4`, which is different from the class setup. But, if you are running it in docker, the version doesn't matter.
+I use ruby version `3.1.2` and rails version `7.0.4`, which is different from the class setup. But, if you are running it in docker, the version doesn't matter.
 
 1. Download/make sure you have downloaded Docker
 
@@ -46,10 +46,6 @@ docker-compose -v                                 08:43:55 PM
 ```
 
 2. **very important**! Get the `.env` file.
-
-We have included an `.env` file in the Courework submission. I also include the `.env` file content in the submission comments.
-
-Either download the `.env` file or copy-paste from the comment, put the file under `paws_and_tails/`.
 
 Here is some helpful commands:
 
@@ -67,13 +63,13 @@ Run `docker-compose build` to build the image.
 docker-compose build
 ```
 
-It takes some time to build the image. Feel free to let us know if any error occurs so we can solve it for you (there shouldn't be any error, though).
+It takes some time to build the image.
 
 4. Run the project
 
-Because we have used many Javascript functions for frontend, we heavily used `Selenium` to do the Cucumber testing. 
+Because I have used many Javascript functions for frontend, I heavily used `Selenium` to do the Cucumber testing. 
 
-We use `selenium/standalone-firefox` to simulate all browser interactions, that means the `docker-compose` will pull a standalone Firefox down and connect with the project. 
+I use `selenium/standalone-firefox` to simulate all browser interactions, that means the `docker-compose` will pull a standalone Firefox down and connect with the project. 
 
 *This process could take some time.*
 
@@ -81,7 +77,7 @@ We use `selenium/standalone-firefox` to simulate all browser interactions, that 
 docker-compose up
 ```
 
-Then, you have the project running! Go to `0.0.0.0:3000`
+Working! Go to `0.0.0.0:3000`
 
     Sidenote: our databases are running on AWS RDS,
     which has already been configured. so you don't 
@@ -97,7 +93,7 @@ docker-compose up
 
 - Run all tests at once
 
-We use `guard` to automatically run all the testing and it will also listen to `app` changes and automatically rerun the test.
+I use `guard` to automatically run all the testing and it will also listen to `app` changes and automatically rerun the test.
 
 To run all the tests at once:
 
@@ -134,3 +130,5 @@ sudo docker system prune
 ## Deployment
 
 The app is deployed at: [https://paws-and-tails.herokuapp.com/](https://paws-and-tails.herokuapp.com/)
+
+Unfortunately, the inner shift in Heroku made the deployment unseenable. I will update this once I finish the entire launching!
