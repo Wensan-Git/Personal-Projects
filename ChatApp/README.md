@@ -20,7 +20,7 @@ Functionalities:
 1. Client registration with the server
 
 
-2. Type in "send <client name> <message>" to send direct message
+2. Type in "send #client name# #message#" to send direct message
 
 
 3. A client can deregister by typing 'dereg'
@@ -29,7 +29,7 @@ Functionalities:
 4. A client's message to an offline client will be kept by the server and delivered to client upon the server coming back online
 
 
-5. A client can send group message by typing "send_all <message>"
+5. A client can send group message by typing "send_all #message#"
 
 
 6. An offline client can go back online by typing in 'reg'
