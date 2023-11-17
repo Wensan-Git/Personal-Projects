@@ -28,7 +28,7 @@ Wensan Yin -- Columbia University, Class of 2024
 
 ## For the Developers
 
-## Note, as things stand right now, the code is non-compilable -- it is a 70% done first iteration demo that I release as a preview. I will publicize the full code base only I finish developing all the code for it!
+## Note, as things stand right now, the code is a 70% done iteration that I release as a preview (I have hidden some core functionalities for temporary business privacy). I will publicize the full code base only when I finish developing all the code for it!
 
 ### Run the Project Locally in Docker (Recommended)
 
