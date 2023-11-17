@@ -26,6 +26,8 @@ Jiacheng Yin -- Columbia University, Class of 2024
 
 ## For the Developers
 
+## Note, at things stand right now, the code is non-compilable -- it is a 70% done first iteration demo that I release as a preview. I will publicize the full code base only I finish developing all the code for it!
+
 ### Run the Project Locally in Docker (Recommended)
 
 Our team dockerized the rails application so that there won't be any dependency, environment, or weird issues when the project is running on any machine.
@@ -54,11 +56,8 @@ Here is some helpful commands:
 ```bash 
 cd paws_and_tails
 touch .env
-# paste what you have from the Coursework 
-#   comments to the newly created .env file
 ```
 
-Note that if you directly download the `.env` file from Coursework, it might be `env` rather than `.env`. You can either use terminal or you favorite editor (like VSCode) to change it from `env` to `.env`.
 
 3. Build project docker image
 
